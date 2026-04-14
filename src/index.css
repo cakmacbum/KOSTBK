@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #6366f1;
+  --accent-gold: #fbbf24;
+  --accent-alien: #ef4444;
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --text-main: #f8fafc;
+  --bg-color: #0f172a;
+}
+
+body {
+  background-color: var(--bg-color);
+  background-image: 
+      radial-gradient(circle at 20% 20%, #1e1b4b 0%, transparent 40%),
+      radial-gradient(circle at 80% 80%, #312e81 0%, transparent 40%);
+  color: var(--text-main);
+  background-attachment: fixed;
+}
+
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Modern Whack-a-Mole",
+  "description": "A fullstack web game where you whack moles to score points and avoid aliens. Features a dynamic difficulty system and a global leaderboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
